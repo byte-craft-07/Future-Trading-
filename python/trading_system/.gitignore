@@ -1,0 +1,49 @@
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local machine files
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Trading outputs and generated artifacts
+**/data/raw/
+**/data/processed/
+**/data/processes/
+**/models/
+**/plots/
+**/logs/
+**/signals/
+**/backtest/results/
+**/backtest/plots/
+
+# Large or private binary artifacts
+*.pkl
+*.pickle
+*.joblib
+*.keras
+*.h5
+*.onnx
+*.parquet
+*.feather
+*.csv
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+
+# Keep empty placeholder files if added later
+!.gitkeep

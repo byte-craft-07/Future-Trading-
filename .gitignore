@@ -1,0 +1,6 @@
+# Keep this repository focused on the trading system only.
+*
+!/.gitignore
+!/python/
+!/python/trading_system/
+!/python/trading_system/**
